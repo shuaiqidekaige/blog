@@ -12,9 +12,9 @@
 </template>
 
 <script lang="ts">
-import BlogHeader from '@/layouts/header'
-import BlogFooter from '@/layouts/footer'
-import BlogContentRight from '@/layouts/contentRight'
+import BlogHeader from './header.vue'
+import BlogFooter from './footer.vue'
+import BlogContentRight from './contentRight.vue'
 export default {
   components: {
     BlogHeader,
@@ -32,7 +32,7 @@ export default {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 32px 0;
+    margin: 32px 0;
     overflow-y: auto;
     .content {
       display: flex;

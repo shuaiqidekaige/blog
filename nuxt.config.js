@@ -19,7 +19,8 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     "@/assets/less/normalize.less",
-    "@/assets/iconfont/iconfont.css"
+    "@/assets/iconfont/iconfont.css",
+    "@/assets/less/hightlight.less",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
